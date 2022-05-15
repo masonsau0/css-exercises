@@ -1,3 +1,6 @@
 div {     /* type selector | only affects elements with <div> tag*/
+    color: white;     /* changes font size */
     background-color: red;     /* changes background text to red */
+    font-size: 48px;     /* changes font size */
+    font-family: 'Courier New', Courier, monospace;     /* changes font type */
 }
