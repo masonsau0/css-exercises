@@ -3,4 +3,5 @@ div {     /* type selector | only affects elements with <div> tag*/
     background-color: red;     /* changes background text to red */
     font-size: 48px;     /* changes font size */
     font-family: 'Courier New', Courier, monospace;     /* changes font type */
+    font-weight: 1000;     /* changes font weight/boldness */
 }
