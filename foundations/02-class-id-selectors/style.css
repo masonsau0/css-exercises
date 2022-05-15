@@ -1,0 +1,19 @@
+.oddNum {     /* class selector */
+    background-color: #f9242480;
+    font-family: Verdana, DejaVu-Sans, sans-serif;
+}
+
+#num2 {     /* id selector */
+    color: blue;
+    font-size: 36px;
+}
+
+num3 {
+    font-size: 24px;
+}
+
+#num4 {
+    background-color: #00ff0080;
+    font-size: 24px;
+    font-weight: bold;
+}
