@@ -7,11 +7,11 @@
     <title>Methods for Adding CSS</title>
 
     <link rel="stylesheet" href="styles.css">     <!-- 'link' elemtent to link css file to HTML file | 'rel' attribute specifies relationship between HTML and linked file -->
-    <style>
-      p {
+    <style>     /*internal css stlying */
+      p {     
         color: white;
         background-color: green;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Arial"; 
         font-size: 30px;
       }
     </style>
@@ -19,7 +19,7 @@
 
   <body>
     <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <p >I would like to be styled with the internal method, please.</p>
+    <button style="color: black; background-color: orange; font-size: 40px; font-family: 'Arial'; ">Inline Method</button>     <!-- inline css styling -->
   </body>
 </html>
